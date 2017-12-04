@@ -1,0 +1,136 @@
+﻿<IFMODULE mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+
+#all php to html 
+RewriteRule ^/?([a-z/]+)\.html$ $1.php [L] 
+
+#login page
+RewriteRule ^admin/index-(.*).html$ admin/index.php?fun=$1 
+
+
+
+
+#main page one variable for fun
+RewriteRule ^admin/main-(.*).html$ admin/main.php?fun=$1 
+
+
+#站点设定 表单提交动作 fun=edit编辑内容
+RewriteRule ^admin/siteset/siteset-(.*).html$ admin/siteset/siteset.php?fun=$1
+
+
+
+#添加版面 fun=add添加版面
+RewriteRule ^admin/siteset/pageset-(.*).html$ admin/siteset/pageset.php?fun=$1 
+
+#版面管理 分页
+RewriteRule ^admin/siteset/pagesetpage-(.*).html$ admin/siteset/pageset.php?page=$1 
+
+#编辑版面管理中的某个版面
+RewriteRule ^admin/siteset/pageseteditlist-(.*).html$ admin/siteset/pageset.php?editlist=$1 
+
+#编辑版面管理中的某个版面  表单提交 编辑某个版面
+RewriteRule ^admin/siteset/pagesetedit-(.*).html$ admin/siteset/pageset.php?edit=$1 
+
+
+#添加区块 fun=add添加区块
+RewriteRule ^admin/siteset/layout-(.*).html$ admin/siteset/layout.php?fun=$1 
+
+#编辑某个区块
+RewriteRule ^admin/siteset/layouteditlist-(.*).html$ admin/siteset/layout.php?editlist=$1 
+
+#编辑区块管理  表单提交 编辑某个区块
+RewriteRule ^admin/siteset/layoutedit-(.*).html$ admin/siteset/layout.php?edit=$1 
+
+#区块管理 分页
+RewriteRule ^admin/siteset/layoutpage-(.*).html$ admin/siteset/layout.php?page=$1 
+
+
+#setbm 部门 表单提交动作 fun=dir1添加一级目录  fun=dir2添加二级子目录  fun=edit编辑目录
+RewriteRule ^admin/setbm-(.*).html$ admin/setbm.php?fun=$1 
+
+#部门 增加子目录、编辑当前ID目录
+RewriteRule ^admin/setbmadd-(.*).html$ admin/setbm.php?add=$1 
+RewriteRule ^admin/setbmedit-(.*).html$ admin/setbm.php?edit=$1 
+
+#部门 删除子目录、
+RewriteRule ^admin/setbmdel1-(.*).html$ admin/setbm.php?del1=$1 
+RewriteRule ^admin/setbmdel2-(.*).html$ admin/setbm.php?del2=$1 
+
+#部门 移动目录位置
+RewriteRule ^admin/setbmup-(.*)-(.*).html$ admin/setbm.php?updir=$1&level=$2
+RewriteRule ^admin/setbmdown-(.*)-(.*).html$ admin/setbm.php?downdir=$1&level=$2
+
+
+#权限
+
+#编辑列表某人权限
+RewriteRule ^admin/permit/permmanageeditlist-(.*).html$ admin/permit/permmanage.php?editlist=$1 
+#权限分页
+RewriteRule ^admin/permit/permmanagepage-(.*).html$ admin/permit/permmanage.php?page=$1 
+
+
+
+
+#人事  表单提交 fun=add  fun=in 添加员工   fun=edit 编辑某人
+RewriteRule ^admin/hr/staff-(.*).html$ admin/hr/staff.php?fun=$1 
+#人事 编辑列表某人
+RewriteRule ^admin/hr/staffedit-(.*).html$ admin/hr/staff.php?editlist=$1 
+#人事 列表 删除某人
+RewriteRule ^admin/hr/staffdel-(.*).html$ admin/hr/staff.php?del=$1 
+
+
+
+
+#会员分页
+RewriteRule ^admin/member/memberpage-(.*).html$ admin/member/member.php?page=$1 
+#会员 编辑列表某人
+RewriteRule ^admin/member/membereditlist-(.*).html$ admin/member/member.php?editlist=$1 
+#人事  表单提交 fun=add  fun=in 添加员工   fun=edit 编辑某人
+RewriteRule ^admin/member/member-(.*).html$ admin/member/member.php?fun=$1 
+
+
+
+#信息分类  表单提交 fun=add   fun=in 添加分类   fun=edit 编辑某人
+RewriteRule ^admin/news/newsdir-(.*).html$ admin/news/newsdir.php?fun=$1 
+
+#信息分类 添加子分类
+RewriteRule ^admin/news/newsdiraddsubdir-(.*).html$ admin/news/newsdir.php?fatherid=$1 
+
+#信息分类 编辑列表某分类
+RewriteRule ^admin/news/newsdireditlist-(.*).html$ admin/news/newsdir.php?editlist=$1 
+
+
+#信息管理 编辑某条信息
+RewriteRule ^admin/news/newsmanageeditlist-(.*).html$ admin/news/newsmanage.php?editlist=$1 
+#信息管理  表单提交 edit 编辑某条信息
+RewriteRule ^admin/news/newsmanageedit-(.*).html$ admin/news/newsmanage.php?edit=$1
+#信息管理 分页
+RewriteRule ^admin/news/newsmanagepage-(.*).html$ admin/news/newsmanage.php?page=$1
+#信息管理 添加信息 fun=add添加信息
+RewriteRule ^admin/news/newsmanage-(.*).html$ admin/news/newsmanage.php?fun=$1 
+
+
+
+
+
+
+#网站前台
+
+#艺术家详细页面 fun艺术家ID
+RewriteRule ^artsinfo-(.*).html$ artsinfo.php?fun=$1
+
+#艺术助理 fun作品id
+RewriteRule ^editzuopin-(.*).html$ editzuopin.php?fun=$1
+
+#艺术助理 fun活动id
+RewriteRule ^editevent-(.*).html$ editevent.php?fun=$1
+
+
+
+
+</IFMODULE>
+
+ErrorDocument 403 /admin/403.html
+ErrorDocument 404 /admin/404.html
+ErrorDocument 500 /admin/500.html

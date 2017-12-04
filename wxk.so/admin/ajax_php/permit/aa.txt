@@ -1,0 +1,2 @@
+DELETE a.* FROM pavy2 as a left join backmenu as b on a.id_backmenu=b.id_backmenu
+	           WHERE a.id_hr='1' and b.fatherid='26' 

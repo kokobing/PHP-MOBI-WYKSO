@@ -1,0 +1,10 @@
+{"data": [[
+            "Koko",
+            "koko",
+            "行政部",
+            "806",
+			"2014-06-23 08:51:59",
+			"admin",
+            "<span  class='label label-success' style='cursor:pointer'>正常</span>",
+            "<a  href='staffedit-72.html'  class='btn custom-table-icon vd_bg-yellow'> <i class='fa fa-pencil'></i> </a><a  href='javascript:void(0)' onclick='staffdel(72);'  class='btn custom-table-icon vd_bg-red'> <i class='fa fa-times'></i> </a>"
+        ]]}

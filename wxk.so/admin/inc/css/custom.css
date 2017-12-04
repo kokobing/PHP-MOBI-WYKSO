@@ -1,0 +1,83 @@
+/*oops*/
+
+.vd_panel-menu .menuadd {
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.vd_panel-menu .menuadd {
+display: block;
+float: left;
+width: 26px;
+height: 26px;
+line-height: 24px;
+text-align: center;
+cursor: pointer;
+font-size: 14px;
+margin-right: 10px;
+vertical-align: middle;
+border: 1px solid #fff;
+color: #fff;
+position: relative;
+}
+
+
+/* 表格内的编辑按钮样式*/
+.table  .custom-table-icon {
+background: none;
+color: #FFF;
+font-size: 12px;
+padding: 2px 6px 3px;
+margin-right: 2px;
+}
+
+.custom_add{color:#fff;}
+.custom_add  :hover{color:#1FAE66;
+background:#fff;	
+padding:2px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;}
+
+.custom-btn-icon {
+
+}
+
+.custom-btn-icon a{
+background: none;
+color: #FFF;
+font-size: 12px;
+padding: 2px 6px 3px;
+margin-right: 2px;
+}
+
+
+
+
+.dirrighticon{
+	float:right;
+
+}
+
+.dirrighticon a{
+    font-size: 12px;
+    padding: 2px 6px 3px;	
+	color:#fff;
+}
+.dirimgsbox{ text-align:right}
+.dirimgsbox img{padding:5px;}
+
+.newscallbackimgs{ text-align:left}
+.newscallbackimgs img{padding:5px;}
+
+.uploadicon{
+	color:#fff;
+	cursor:pointer;
+    padding:0px !important;	
+}
+
+/* 图片预览 编辑 删除按钮区*/
+.pp_social a{font-size: 12px;padding: 2px 6px 3px;color: #fff;margin-right:5px;}
+
+.resetbtninternalnews{line-height:20px !important;}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <info id="1">
+    <name>adevy001</name>
+    <shenhe><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="审核" data-off-text="关闭" sethelp="22" data-size="mini" data-wrapper-class="green" checked>]]></shenhe>
+    <stat><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="开通" data-off-text="暂停" sethelp="11" data-size="mini" data-wrapper-class="blue" checked>]]></stat>
+    <act><![CDATA[<a href="permmanageedit-1.html" data-original-title="edit" data-toggle="tooltip" data-placement="top" class="btn menu-icon vd_bg-yellow"> <i class="fa fa-pencil"></i> </a>]]></act>
+  </info>
+  <info id="2">
+    <name>adevy001</name>
+    <shenhe><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="审核" data-off-text="关闭" sethelp="22" data-size="mini" data-wrapper-class="green" checked>]]></shenhe>
+    <stat><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="开通" data-off-text="暂停" sethelp="11" data-size="mini" data-wrapper-class="blue" checked>]]></stat>
+    <act><![CDATA[<a href="permmanageedit-1.html" data-original-title="edit" data-toggle="tooltip" data-placement="top" class="btn menu-icon vd_bg-yellow"> <i class="fa fa-pencil"></i> </a>]]></act>
+  </info>
+  <info id="3">
+    <name>adevy001</name>
+    <shenhe><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="审核" data-off-text="关闭" sethelp="22" data-size="mini" data-wrapper-class="green" checked>]]></shenhe>
+    <stat><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="开通" data-off-text="暂停" sethelp="11" data-size="mini" data-wrapper-class="blue" checked>]]></stat>
+    <act><![CDATA[<a href="permmanageedit-1.html" data-original-title="edit" data-toggle="tooltip" data-placement="top" class="btn menu-icon vd_bg-yellow"> <i class="fa fa-pencil"></i> </a>]]></act>
+  </info>
+  <info id="4">
+    <name>adevy001</name>
+    <shenhe><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="审核" data-off-text="关闭" sethelp="22" data-size="mini" data-wrapper-class="green" checked>]]></shenhe>
+    <stat><![CDATA[<input type="checkbox" name="my-checkbox" data-rel="switch"  data-on-text="开通" data-off-text="暂停" sethelp="11" data-size="mini" data-wrapper-class="blue" checked>]]></stat>
+    <act><![CDATA[<a href="permmanageedit-1.html" data-original-title="edit" data-toggle="tooltip" data-placement="top" class="btn menu-icon vd_bg-yellow"> <i class="fa fa-pencil"></i> </a>]]></act>
+  </info>
+</root>
