@@ -6,7 +6,7 @@ PHP-MOBI-WYKSO 微艺库微网站，一个WEBAPP，前端框架用的是JQM，�
 
 主要应用技术：PHP，JQM，MYSQL
 
-|![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home1.jpg)  |![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home2.jpg)  
+|![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home1.jpg)  |![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home2.jpg)   |![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home3.jpg)  
 
 
 运行环境
