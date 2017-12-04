@@ -1,8 +1,13 @@
 
 README
 ===========================
-PHP-MOBI-WYKSO 微艺库微网站，一个WEBAPP，前端框架用的是JQM，后端PHP，数据库MYSQL，因为项目生命周期完结，并得到项目甲方的同意，整理到仓库中以做总结，代码仅供学习，禁止任何与商业有关的行为！
+PHP-MOBI-WYKSO 微艺库微网站，一个WEBAPP，前端框架用的是JQM，后端PHP，数据库MYSQL，因为项目生命周期完结，并得到项目甲方的许可，整理到仓库中以做总结，代码仅供学习，禁止任何与商业有关的行为！
 站点前后端未用任何MVC框架、未用任何第三方CMS系统，不存在复杂的一堆看不明白的代码，全程序均手写，非常适合PHP初学者入门。  
+
+主要应用技术：PHP，JQM，MYSQL
+
+|![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home1.jpg)  |![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home2.jpg)  |![](https://github.com/Kokobing/PHP-MOBI-WYKSO/blob/master/home3.jpg)  
+
 
 运行环境
 ===========================
