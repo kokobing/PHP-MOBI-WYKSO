@@ -16,7 +16,7 @@ PHP-MOBI-WYKSO 微艺库微网站，一个WEBAPP，前端框架用的是JQM，�
 
 安装调试
 ===========================
- * 导入数据库SQL Phpmyadim中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci  
+ * 导入数据库SQL  Phpmyadim中新建website数据库，并导入website.sql，注意新建数据库排序规则为utf8_general_ci  
  
  * 配置数据库连接信息 /www/inc/dbinfo.php
  
